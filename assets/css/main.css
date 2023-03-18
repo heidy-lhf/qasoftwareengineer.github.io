@@ -3825,6 +3825,12 @@ input, select, textarea {
 
 			}
 
+			#main > .posts > .none {
+				padding: 0rem;
+				width: 50%;
+				margin: 0;
+			}
+
 		#main > .posts {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -3955,7 +3961,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #f5f5f5;
+		background-color: #ffffffec;
 		color: #909498;
 		cursor: default;
 		position: relative;
@@ -3999,6 +4005,7 @@ input, select, textarea {
 		#footer hr {
 			border-bottom-color: #e2e2e2;
 		}
+	
 
 		#footer .box {
 			border-color: #e2e2e2;
@@ -4161,7 +4168,7 @@ input, select, textarea {
 		}
 
 		#footer .pagination a, #footer .pagination span {
-			border-color: #e2e2e2;
+			border-color: #ffffff;
 		}
 
 		#footer .pagination a {
@@ -4295,7 +4302,7 @@ input, select, textarea {
 		#footer form label,
 		#footer h3,
 		#footer p {
-			font-size: 0.8rem;
+			font-size: 1rem;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -4466,6 +4473,7 @@ input, select, textarea {
 
 			#copyright {
 				margin: 4rem auto;
+				color: #ffffff;
 			}
 
 		}
